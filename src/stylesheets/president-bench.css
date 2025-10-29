@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* 
+.panel {
+  will-change: transform, scale;
+} */
+
+#president-bench {
+}
+
+#president-bench h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  will-change: transform;
+}
+.panel h2 {
+}
+
+.panel p {
+  will-change: transform;
+}
+
+.glow-card {
+  transition: 0.3s ease-in-out;
+}
+.glow-card:hover {
+  box-shadow: var(--shadow-glow);
+  transform: scale(1.1);
+}

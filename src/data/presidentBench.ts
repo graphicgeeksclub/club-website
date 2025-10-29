@@ -1,0 +1,36 @@
+export const presidentBench = [
+  {
+    name: "Sehar Fatima",
+    position: "President",
+    year: "BTech CSE 2nd Year",
+    skills: ["Full Stack Development", "System Design", "Leadership"],
+    bio: "Keeping the club organized and ensuring smooth communication across all levels.",
+    image: "/images/Presidents/president-1.webp",
+    linkedin: "#",
+    github: "#",
+    email: "arjun@example.com",
+  },
+  {
+    name: "Aditya Rauthan",
+    position: "President",
+    year: "BTech CSE 3rd Year",
+    skills: ["Project Management", "AI/ML", "Strategic Planning"],
+    bio: "Leading the club towards new heights with innovative projects and collaborations.",
+    image: "/images/Presidents/president-2.webp",
+    linkedin: "#",
+    github: "#",
+    email: "riya@example.com",
+  },
+  {
+    name: "Vishal Kumar",
+    position: "President",
+    year: "3rd Year CSE",
+    skills: ["Web Development", "Cloud Computing", "Team Coordination"],
+    bio: "Supporting presidential initiatives and driving technical excellence in all projects.",
+    image:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+    linkedin: "#",
+    github: "#",
+    email: "dev@example.com",
+  },
+];
