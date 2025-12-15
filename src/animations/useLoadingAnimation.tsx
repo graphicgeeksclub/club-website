@@ -25,7 +25,7 @@ const useLoadingAnimation = (setLoading) => {
           y: "-2rem",
           delay: 0.5,
         });
-      }
+      } 
     });
 
     // Animate percentage from 0 → 100

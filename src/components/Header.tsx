@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/ThemeToggle";
+// import clubLogo from "@/assets/club-logo.jpeg";
 import clubLogo from "@/assets/club-logo.png";
 import collegeLogo from "@/assets/college-logo.png";
 

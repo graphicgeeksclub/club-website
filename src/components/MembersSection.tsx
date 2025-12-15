@@ -15,7 +15,6 @@ export function MembersSection() {
       id="members"
       className="bg-[#487BCA] text-white dark:bg-[#111] py-20"
     >
-      
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 pb-2 dark:gradient-text">
@@ -81,7 +80,6 @@ const MemberSectionCardList = ({
   people,
   type,
 }: MemberSectionCardListProps) => {
-
   const isTeamHead = type === "Team-Heads";
   const [expandedTeams, setExpandedTeams] = useState<toggleTeamType>({});
 
@@ -102,8 +100,7 @@ const MemberSectionCardList = ({
         <div
           className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-${
             isTeamHead ? 2 : 3
-          } gap-8 mx-auto`}
-          style={{ alignItems: "start" }}
+          } gap-8 mx-auto items-${isTeamHead ? "start" : "stretch"}`}
         >
           {people.map((member, index) => (
             <Card
