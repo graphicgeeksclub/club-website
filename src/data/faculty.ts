@@ -1,4 +1,4 @@
-export const faculty = [
+export const faculty = [ 
   {
     name: "Dr. Narayan",
     designation: "Head of Department - Computer Science",
@@ -10,11 +10,10 @@ export const faculty = [
       "Published 50+ Research Papers",
     ],
     email: "priya.sharma@geu.ac.in",
-    image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+    image: "/images/Faculties/faculty-1.webp",
   },
   {
-    name: "Prof. Teekam",
+    name: "Prof. Anupam",
     designation: "Associate Professor - Information Technology",
     specialization: "Web Development & Cloud Computing",
     experience: "12+ years",
@@ -24,8 +23,7 @@ export const faculty = [
       "Google Cloud Certified",
     ],
     email: "rajesh.kumar@geu.ac.in",
-    image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+    image: "/images/Faculties/faculty-2.webp",
   },
   {
     name: "Dr. Siddhanth Thapliyal",
@@ -38,7 +36,6 @@ export const faculty = [
       "Design Thinking Expert",
     ],
     email: "anjali.verma@geu.ac.in",
-    image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+    image: "/images/Faculties/faculty-3.webp",
   },
 ];
