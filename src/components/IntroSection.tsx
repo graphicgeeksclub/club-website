@@ -14,7 +14,7 @@ const IntroSection = () => {
         innovation, creativity, and technical excellence among students. Our
         mission is to bridge the gap between theoretical knowledge and practical
         application.
-      </p>2
+      </p>
 
       <div className="intro-card-wrapper mt-4 relative text-white">
         {introCardData.map((card) => (
