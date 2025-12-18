@@ -3,7 +3,7 @@ import { introCardData } from "@/data/introCards";
 
 const IntroSection = () => {
   useIntroductionAnimation();
-
+ 
   return (
     <section id="intro" className="intro-section min-h-screen w-full bg-[#487BCA] dark:bg-[#111] text-center py-[5rem] pb-[10rem] overflow-hidden">
       <h2 className="text-4xl md:text-5xl font-bold mt-2 pb-4 text-white dark:gradient-text">
@@ -14,7 +14,7 @@ const IntroSection = () => {
         innovation, creativity, and technical excellence among students. Our
         mission is to bridge the gap between theoretical knowledge and practical
         application.
-      </p>
+      </p>2
 
       <div className="intro-card-wrapper mt-4 relative text-white">
         {introCardData.map((card) => (
