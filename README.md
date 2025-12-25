@@ -1,63 +1,95 @@
-# Welcome to your typescript project
+# Club Website
 
-## Project info
+Welcome to this project! This repository follows a clear GitHub workflow to ensure smooth collaboration, proper versioning, and code consistency. Please read this guide before contributing.
+
+---
+
+## Contributing
+
+Thank you for your interest in contributing! Follow this guide to work with this repository.
+
+This project uses a **protected main branch workflow**. The `main` branch represents the current stable version (**v1.0**). Contributors **cannot push directly to main**. All changes must be made via **feature branches** and **pull requests (PRs)**. Only the **repo owner** can merge PRs.  
+
+**Versioning:**  
+- **v1.0** — Current stable version  
+- **v2.0** — Major overhaul or complete redesign  
+
+**Branching Conventions:**  
+- Feature branches: `feature/<short-description>` (e.g., `feature/add-login-form`)  
+- Bugfix branches: `bugfix/<short-description>` (e.g., `bugfix/fix-header-alignment`)  
+- Version branches: Only for major releases (e.g., `v1.0`, `v2.0`)  
+
+> ⚠️ Do not push directly to `main`. Always branch from the latest `main`.
+
+**Commit Message Conventions:**  
+Format:  
+- **type:** feat, fix, docs, chore, refactor  
+- **scope:** optional, file/module/feature name  
+- **short description:** 1-line present tense  
+
+**Examples:**  
+- feat(auth): add login form
+- fix(header): align navigation links
+- docs(readme): add contributing guide
 
 
-## How can I edit this code?
+**Pull Requests:**  
+- Always target `main` or the latest version branch (`v1.0`)  
+- PR title format: `<type>: <short description>` (e.g., `feat: add user profile page`)  
+- PR description must include:
+  - What changed  
+  - Why it changed  
+  - Testing instructions  
+- **PRs require owner approval before merging**  
+- **Do not merge your own PR**  
+- **Do not push directly to main**  
 
-There are several ways of editing your application.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. 
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+**Local Development:**  
+```bash
+# Clone the repo
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Go to project folder
+cd <PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+# Git Workflow:
+```
+# Create a branch
+git checkout -b feature/<short-description>
 
-**Use GitHub Codespaces**
+# Stage changes
+git add .
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Commit
+git commit -m "feat(auth): add login form"
 
-## What technologies are used for this project?
+# Push branch
+git push origin feature/<short-description>
+```
 
-This project is built with:
+# Status Checks & CI:
+- All PRs must pass automated tests, linters, and deploy previews
+- Merging is blocked if checks fail
+- Only the repo owner can merge after checks pass
 
-- Vite
-- TypeScript
-- React
-- 
-- shadcn-ui
-- Tailwind CSS
+Additional Notes:
+- Always pull the latest main before starting a branch:
+```
+git checkout main
+git pull origin main
+git checkout feature/addLoginPage
+```
+- Keep branches short-lived — delete after merging
+- Follow branch, commit, and PR naming conventions strictly
+- For questions about workflow or versioning, contact the repo owner
 
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
+Thank you for contributing! By following these rules, you help keep the project organized and stable.
