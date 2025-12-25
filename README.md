@@ -4,24 +4,24 @@ Welcome to this project! This repository follows a clear GitHub workflow to ensu
 
 ---
 
-## Contributing
+## 🚀 Contributing
 
 Thank you for your interest in contributing! Follow this guide to work with this repository.
 
 This project uses a **protected main branch workflow**. The `main` branch represents the current stable version (**v1.0**). Contributors **cannot push directly to main**. All changes must be made via **feature branches** and **pull requests (PRs)**. Only the **repo owner** can merge PRs.  
 
 **Versioning:**  
-- **v1.0** — Current stable version  
-- **v2.0** — Major overhaul or complete redesign  
+- **🟢 v1.0** — Current stable version  
+- **🔴 v2.0** — Major overhaul or complete redesign
 
 **Branching Conventions:**  
-- Feature branches: `feature/<short-description>` (e.g., `feature/add-login-form`)  
-- Bugfix branches: `bugfix/<short-description>` (e.g., `bugfix/fix-header-alignment`)  
+- 🌿 Feature branches: `feature/<short-description>` (e.g., `feature/add-login-form`)  
+- 🐞 Bugfix branches: `bugfix/<short-description>` (e.g., `bugfix/fix-header-alignment`)  
 - Version branches: Only for major releases (e.g., `v1.0`, `v2.0`)  
 
 > ⚠️ Do not push directly to `main`. Always branch from the latest `main`.
 
-**Commit Message Conventions:**  
+**📝 Commit Message Conventions:**  
 Format:  
 - **type:** feat, fix, docs, chore, refactor  
 - **scope:** optional, file/module/feature name  
@@ -44,7 +44,7 @@ Format:
 - **Do not merge your own PR**  
 - **Do not push directly to main**  
 
-**Local Development:**  
+**🔧 Local Development:**  
 ```bash
 # Clone the repo
 git clone <YOUR_GIT_URL>
@@ -76,7 +76,7 @@ git commit -m "feat(auth): add login form"
 git push origin feature/<short-description>
 ```
 
-# Status Checks & CI:
+# ✅ Status Checks & CI:
 - All PRs must pass automated tests, linters, and deploy previews
 - Merging is blocked if checks fail
 - Only the repo owner can merge after checks pass
@@ -92,4 +92,4 @@ git checkout feature/addLoginPage
 - Follow branch, commit, and PR naming conventions strictly
 - For questions about workflow or versioning, contact the repo owner
 
-Thank you for contributing! By following these rules, you help keep the project organized and stable.
+🤝 Thank you for contributing! Following these guidelines helps the whole team keep the project organized and stable.
